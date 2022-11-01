@@ -1,0 +1,33 @@
+1) Create a dynamic project (Don’t Forget to change perspective to Java EE)
+2) Name: (Anyname)
+Dynamic web module version: 2.5
+Check Add Project to an EAR
+
+3) Finish
+
+4) Go to servers panel
+
+5) click on link "No servers are available..."
+
+6) Now, select Apache-->Tomcat v8.5
+
+Next, Tomcat installation directory --> Browse : Give the path of downloaded apache tomcat 8.5
+Next, select your project and click on add, Finish
+
+7) Right click on project --> new class
+Give Name (e.g addClass), Finish
+
+8) Create function:
+public class addClass {
+    public int add(int a,int b) {
+    return a+b;
+    }
+}
+
+9) Right click on Tomcat in servers panel, and click on start
+
+10) Right click on file (addClass), New-->Other-->Web Services-->Web Service.
+Next, in 2nd image bring pointer at top (Test Client)
+Next, Next, Error(OK), Next, Warning (Yes to all), Click on Launch
+
+11) Browser will open, click on add in Name column, put 2 numbers and click on go.
